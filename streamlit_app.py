@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import scikit-learn 
+
 # -----------------------------
 # Page configuration
 st.set_page_config(page_title="California Housing Predictor", layout="wide")
