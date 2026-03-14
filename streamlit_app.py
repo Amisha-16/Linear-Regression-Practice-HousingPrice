@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-
+import scikit-learn 
 # -----------------------------
 # Page configuration
 st.set_page_config(page_title="California Housing Predictor", layout="wide")
@@ -54,7 +54,4 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:gray;'>🔹 Try changing the values in the sidebar to see how house prices vary!</p>", unsafe_allow_html=True)
 
 
-st.write("App started")
 
-import sklearn
-st.write("sklearn loaded")
