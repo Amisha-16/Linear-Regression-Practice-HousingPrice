@@ -52,3 +52,9 @@ if st.button("Predict 💰"):
 # Footer tip
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:gray;'>🔹 Try changing the values in the sidebar to see how house prices vary!</p>", unsafe_allow_html=True)
+import streamlit as st
+
+st.write("App started")
+
+import sklearn
+st.write("sklearn loaded")
